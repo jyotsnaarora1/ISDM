@@ -1,4 +1,5 @@
 Relationship Managers 
+
 As an RM, I want to be connected to customers who require my skills so I can help them to the best of my ability
 As an RM, I want to be connected to customers who have a higher score to complete a quick sale before being connected to new customers. 
 As an RM, I want to be asked accurate questions during my questionnaire so I am not matched with a customer who I am not able to help. 
