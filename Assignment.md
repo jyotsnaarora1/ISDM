@@ -14,9 +14,3 @@ Objectives
 •	Call management centre (CMC)
 •	Relationship Managers/employees
 •	Customers
-
-3.	Design Thinking Process
-4.	Agile methodology used for this project
-5.	Assumptions
-6.	Models
-7.	Competitive advantages
