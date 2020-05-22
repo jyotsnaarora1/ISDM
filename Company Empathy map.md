@@ -11,7 +11,7 @@ See-
 -	They see that Relationship managers are not able to provide quality customer service.
 -	The packages are not marketed and described efficiently to the customer hence loosing market share. 
 -	The current system in place is complicated and is restricting the company’s relationship managers to provide the best customer service.
--	The 
+ 
 Hear -
 -	They hear that during busy times their call takes much longer to be answered. 
 -	They hear complaints of customers that suggest that relationship managers are unable to answer customer’s questions. 
