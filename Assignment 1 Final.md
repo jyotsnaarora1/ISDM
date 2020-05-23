@@ -31,11 +31,15 @@ The stakeholders involved in this project are:
 ### Backlog
 ## Use Case Diagram
 ## Use Case Narratives
-# Use Case Narrative 1
-# Use Case Narrative 2
-# Use Case Narrative 3
-# Use Case Narrative 4
+### Use Case Narrative 1
+### Use Case Narrative 2
+### Use Case Narrative 3
+### Use Case Narrative 4
 ## Activity Diagrams
+### Activity Diagram 1
+### Activity Diagram 2
+### Activity Diagram 3
+### Activity Diagram 4
 ## Class Diagram
 ## Collaborative Diagram
 ## Competitive Advantage
