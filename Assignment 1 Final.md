@@ -1,13 +1,13 @@
 # Travel Company Call Management Centre
 
-## Problem Definition
+## 1. Problem Definition
 A major travel company performs sales of various holiday packages over calls in their call management centre (CMC). Relationship Managers (RM) are expected to provide information to customers about the variety and nature of the holidays packages they offer encouraging them to purchase it.
 
 Currently, the inbound customers are connected to the fist available Relationship Manager (RM) at the CMC. This sometimes can cause issues as some of the new RM’s may not have enough information about the holiday package and can discourage the customer from purchasing a holiday package. During busy time, customers may be directed to an Interactive Voice Response resulting in low customer engagement and loss of opportunities. Customers can also hang up if they suffer from a long wait time in the queue.
 
 RMs are looking to improve the call routing system and the call flow rate for both inbound and outbound calls to improve their service to their end and potential customers. 
 
-## Objectives
+## 2. Objectives
 The objectives of the project is to:
 
 + Provide efficient call routing and dynamic call flow control allowing RMs to serve their end and potential customers.
@@ -15,7 +15,7 @@ The objectives of the project is to:
 + Improve customer experience by matching RMs that have the product knowledge required by the customers.
 + Improve the customer experience for repeat customers to encourage more purchases.
 
-## Stakeholders
+## 3. Stakeholders
 The stakeholders involved in this project are:
 
 + Relationship Managers
@@ -23,7 +23,7 @@ The stakeholders involved in this project are:
 + Profiler Tool
 + Call Management Centre
 
-## Project Assumptions
+## 4. Project Assumptions
 1. The target list for RMs is updated regularly to maintain a certain amount of calls being made.
 2. There is ‘hold’ music in place for customers in the queue.
 3. RM must answer privacy questions before beginning the conversation based off their profiles specific criteria; such as DOB, Full Name and Address. 
@@ -33,9 +33,8 @@ The stakeholders involved in this project are:
 7. The RM skill score is updated at the end of every day.
 8. RMs will write compulsory notes on the customers profile based on their conversation in order to have information for the next interaction with the customer.
 
-## Empathy Maps
-
-**Company Empathy Map** <br>
+## 5. Empathy Maps
+#### 5.1 Company Empathy Map
 **Think & Feel:**
 + They know about a travel company who has several holiday packages that suit each person’s needs and budgets.
 + Travel Company is struggling to provide the level of customer service which would attract and maintain a customer base.
@@ -64,7 +63,7 @@ The stakeholders involved in this project are:
 + Relationship managers who are specialised in certain packages can use this as their advantage and increase sales.
 + The efficiency of outbound calls will be enhanced when the relationship manager is provided with a script and details from a database that familiarises them with customer interests.
 
-**Customer Empathy Map**<br>
+#### 5.2 Customer Empathy Map
 **Think & Feel:**
 + They know about a travel company who has several holiday packages that suit each person’s needs and budgets.
 + They feel that the travel company has poor customer service, especially the call management centre.
@@ -88,7 +87,7 @@ The stakeholders involved in this project are:
 + Relationship managers have the knowledge about the package which a customer is inquiring for.
 + Customers are informed about all packages and promotions which the company is offering.
 
-## Brainstorming of Solution
+## 6. Brainstorming of Solution
 + Match end-customers with well informed RMs with appropriate knowledge about the destination and its tradition.
 + Create a questionnaire for the initial phase of RM profiles, the questionnaire will assist and work in collaboration with the matcher tool, to effectively match the RM with the customer. This means that there must be a singular questionnaire to Build RM profile based on the criteria in the questions.
 + System adjusts RM profiles constantly based on RMs performance in selling. The system will adapt and change when the RM is upskilled and constantly reaching KPIs.
@@ -103,59 +102,80 @@ The stakeholders involved in this project are:
 + RMs are able to put their customers on hold to investigate complex situations further, the system will play music when ‘hold status’ is active. RMs can also put themselves on MUTE if they need to do quick investigating.
 + Customers can choose their language before the call is routed to ensure optimum selectability and routing to RMS.
 
-## Project Backlog
-### User Stories
+## 7. Project Backlog
+### 7.1 User Stories
 **Customer User Stories**
-+ As a customer, I want to be matched with a relationship manager who has the knowledge and experience of the holiday package I am looking for.
-+ As a customer, I want to be able to speak with a relationship manager despite the busy times.
-+ As a customer, I want to be notified about all the packages that are available and be informed of any promotional activities.
-+ As a customer, I want the relationship manager to have a record of my previous conversation with the company, so I do not have to repeat my needs or concerns.
-+ As a customer, I want to have a smooth experience from the customer service of the travel company.
-+ As a customer, I want to be able to be connected with the same relationship manager for the ease of communication and understanding my perspective.
-+ As a customer, I want to speak to a relationship manager who knows and understands my culture and social area.
-+ As a customer, I want to receive a follow up call if there were any changes in my order or other promotional benefits are offered.
-+ As a customer, I want to be able to connect with a Relationship manager who understands my language that I am comfortable in conversing in.
++ **US-101:** As a customer, I want to be matched with a relationship manager who has the knowledge and experience of the holiday package I am looking for.
++ **US-102:** As a customer, I want to be able to speak with a relationship manager despite the busy times.
++ **US-103:** As a customer, I want to be notified about all the packages that are available and be informed of any promotional activities.
++ **US-104:** As a customer, I want the relationship manager to have a record of my previous conversation with the company, so I do not have to repeat my needs or concerns.
++ **US-105:** As a customer, I want to have a smooth experience from the customer service of the travel company.
++ **US-106:** As a customer, I want to be able to be connected with the same relationship manager for the ease of communication and understanding my perspective.
++ **US-107:** As a customer, I want to speak to a relationship manager who knows and understands my culture and social area.
++ **US-108:** As a customer, I want to receive a follow up call if there were any changes in my order or other promotional benefits are offered.
++ **US-109:** As a customer, I want to be able to connect with a Relationship manager who understands my language that I am comfortable in conversing in.
 
 **RM User Stories**
-+ As an RM, I want to be connected to customers who require my skills so I can help them to the best of my ability. 
-+ As an RM, I want to be connected to customers with higher scores first to encourage quick and repeat sales. 
-+ As an RM, I want to be asked accurate questions during my questionnaire so I am not matched with a customer who I am not able to help.
-+ As an RM, I want the customer target list to be similar so I can use similar guidelines and scripts to perform the best service. 
-+ As an RM, I would like to be given the repeat customers file to ensure a similar experience as their previous one and to encourage repeat sales. 
-+ As an RM, I want customers to be informed of our holiday packages wherever possible to ensure a quicker sale.
++ **US-201:** As an RM, I want to be connected to customers who require my skills so I can help them to the best of my ability. 
++ **US-202:** As an RM, I want to be connected to customers with higher scores first to encourage quick and repeat sales. 
++ **US-203:** As an RM, I want to be asked accurate questions during my questionnaire so I am not matched with a customer who I am not able to help.
++ **US-204:** As an RM, I want the customer target list to be similar so I can use similar guidelines and scripts to perform the best service. 
++ **US-205:** As an RM, I would like to be given the repeat customers file to ensure a similar experience as their previous one and to encourage repeat sales. 
++ **US-206:** As an RM, I want customers to be informed of our holiday packages wherever possible to ensure a quicker sale.
 
-### Backlog
+### 7.2 Backlog
 ![Product Backlog](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Product%20Backlog%20Final.png "Product Backlog")
 
-## Use Case Diagram
-## Use Case Narratives
-### Use Case Narrative 1
-### Use Case Narrative 2
-### Use Case Narrative 3
-### Use Case Narrative 4
-## Activity Diagrams
-### Activity Diagram 1
-### Activity Diagram 2
-### Activity Diagram 3
-### Activity Diagram 4
-## Class Diagram
-## Collaborative Diagram
-## Competitive Advantage
+## 8. Use Case Diagram
+![Use Case Diagram](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/use%20case%20diagram.jpg "Use Case Diagram")
+
+## 9. Use Case Narratives
+#### 9.1 Use Case Name: Connect Customers to RM in busy times
+#### 9.2 Use Case Name: Access to Customer Files to RM
+#### 9.3 Use Case Name: Match Customers to RMs
+#### 9.4 Use Case Name: Capture RM Skills
+## 10. Activity Diagrams
+#### 10.1 UC: Connect Customers to RM in busy times
+![Activity Diagram 1](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20Diagram%20Shreya%201.png "Activity Diagram 1")
+
+#### 10.2 UC: Access to Customer Files to RM
+![Activity Diagram 2](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Shreya%202.png "Activity Diagram 2")
+
+#### 10.3 UC: Match Customers to RM
+![Activity Diagram 3](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Sabrina%201.png "Activity Diagram 3")
+
+#### 10.4 UC: Capture RM Skills
+![Activity Diagram 4](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Sabrina%202.png "Activity Diagram 4")
+
+## 11. Class Diagram
+
+## 12. Collaborative Diagram
+![Collaborative Diagram](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/collaborative%20diagram.png "Collaborative Diagram")
+
+## 13. Competitive Advantages and Outcomes
 Having a competitive advantage puts a firm in a favourable position over other businesses in the market. The travel company with an effective call management centre system will ensure that the company is reducing costs and able to carry out effective conversations to potentially convert every call into revenue. Companies are able to use their business systems to leverage the company against competitors as it can have positive effects on business functions.
 
-**Reducing Costs**
-
+#### 13.1 Reducing Costs
 Reducing costs is crucial for any company. Reducing costs while still maintaining an appropriate operational performance is advantageous in a competitive market. When calls are managed through the CMC, the end customers and relationship managers are matched appropriately. This will allow for less wastage time, more sales and reducing operational costs such as time spent on phone without sales and phone bills. Another form of costs may be the excess of travel agency stores. With the adoption of an efficient CMC, companies are able to cut commercial rent costs, employees and other costs working in brick and mortar stores. A CMC will digitise the customer experience and further be able to increase the traffic as time spent with customers is reduced. For example, an RM in a call centre using a CMC will have more foot traffic than an employee in a traditional brick and mortar store resulting in greater traffic and increased conversions hence cutting costs whilst increasing profits for the firm.
 
-**Customer loyalty and intimacy**
-
+#### 13.2 Customer loyalty and intimacy
 Furthermore, the CMC will be able to match the customers wants and needs with the profile of the RM. Customers who are understood and being approached in a relatable matter are more likely to purchase products or in this case travel packages. The CMC will help the RMs learn about the customer upon opening an account or through the specified target list. Having RMs know crucial details about customers aid in engaging in conversation, building rapport, insights to wants, needs and pain points. After this, RMs are able to use empathy and critical problem-solving skills to convert the conversation into a sale. For example, a customer is calling in to find packages for flights and accommodations for Dubai and can only speak Arabic, the RM matched will be bilingual in Arabic and have proficient knowledge on Dubai. The overarching idea here is that a CMC can help gain insights on customers and match RMs based on similar criteria. This will boost customer experience and satisfaction, resulting in increased customer loyalty and intimacy, in turn putting the firm in a leading position. 
 
-**Productivity and Efficiency**
-
+#### 13.3 Productivity and Efficiency
 Essentially, the overarching goal of the new system will be to improve and maintain productivity and efficiency. The system route calls by skill, therefore, allows customers to be on the phone for a shorter period of time and overall gives the customer a more effective experience. When an agent is able to secure a sale at minimum touchpoints, the agent is being more efficient and productive than just simply routing the calls to correct people or searching for information to give the customer. The system can make outbound calls using the target list which routes call to the appropriate customer, this results in reduced idle times where the agent is not merely waiting for a call to come through, therefore the agent is more productive. By implementing these features into the system the company is leveraging its operations to remain and sustain a competitive advantage.
 
-## Agile Methodology - Scrum
+#### 13.4 Adverse Effects of Failure
+There are various reasons for a system failing to be implemented, reasons such as having too many features and customizations, poor design process, interdependent teams and management not communicating enough or effectively. As a consequence of these factors, the adverse effects are substantial and may be difficult to recover from. Core adverse effects may include:
+
+1. Large misuse of labour and capital causing issues with strategic financial goals.
+2. Customer satisfaction and loyalty reduce, creating a bad reputation in customer service.
+3. Loss of market share in the travel industry as competitors may have a more efficient and effective system.
+4. Unable to create strong relationships with customers and acquire long term or repeat customers.
+5. Employee turnover will start to occur if systems aren’t able to perform to their expectation or ‘get the job done’ well enough.
+6. Can cause downtime; when the business has to pause all operations temporarily resulting in financial stress.
+
+
+## 14. Agile Methodology - Scrum
 The scrum methodology is the most suitable and appropriate methodology to be utilised in this project. Since the development of this plan is somewhat complicated and unpredictable, despite there being instructions there isn’t a fully defined process to how the project should be done as many changes can be made, or some requirements are not understood yet. Our team decided that there will be required deliverables; a backlog to be completed in increments. These increments will be developed or curated in the form of sprints with a specific time to have them completed by. When a deliverable is completed, such as diagrams section in the assignment, the sprint is then reviewed and the team then looks for ways we can improve.
 
 The team will use GitHub to submit work in iterations based on the backlog which includes the necessary deliverables to be submitted into the final report. Github allows the team to have version control and records all changes made that we can revert back to, compare changes over and see who has modified the files. Through collaborating on GitHub, we were able to edit each others work and create more backlog deliverables for the next sprint.
