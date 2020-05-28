@@ -26,63 +26,79 @@ The stakeholders involved in this project are:
 ## Project Assumptions
 ## Empathy Maps
 
-**Company Empathy Map**
-**Think & Feel**
+**Company Empathy Map** <br>
+**Think & Feel:**
 + They know about a travel company who has several holiday packages that suit each person’s needs and budgets.
 + Travel Company is struggling to provide the level of customer service which would attract and maintain a customer base.
 + They are unable to serve all the customers in the busy times.
 + Relationship Manager does not have enough knowledge about specific packages to help customers.
 
-**See**
+**See:**
 + They see reviews of the company online and see the ratings it has.
 + They see that Relationship managers are not able to provide quality customer service.
 + The packages are not marketed and described efficiently to the customer hence losing market share.
 + The current system in place is complicated and is restricting the company’s relationship managers to provide the best customer service.
 
-**Hear**
+**Hear:**
 + They hear that during busy times their call takes much longer to be answered.
 + They hear complaints of customers that suggest that relationship managers are unable to answer customer’s questions.
 + They hear competitors gaining more customer base and market share than them.
 
-**Pain**
+**Pain:**
 + The company is losing customers due to the poor customer services provided by the relationship managers.
 + They are unable to increase the sales of the packages because some relationship managers do not have enough knowledge about every package.
 + Competitors are taking advantage of the company’s loss of customers.
 
-**Gain**
+**Gain:**
 + The company will highly benefit from the score-based system where they can attend customers who are more likely to make purchases. This way they can retain a loyal customer base.
 + By allocating customers to the right relationship manager depending on their enquiry allows customers to receive the best customer service.
 + Relationship managers who are specialised in certain packages can use this as their advantage and increase sales.
 + The efficiency of outbound calls will be enhanced when the relationship manager is provided with a script and details from a database that familiarises them with customer interests.
 
-**Customer Empathy Map**
-**Think & Feel**
+**Customer Empathy Map**<br>
+**Think & Feel:**
 + They know about a travel company who has several holiday packages that suit each person’s needs and budgets.
 + They feel that the travel company has poor customer service, especially the call management centre.
 + The relationship manager does not have enough knowledge of the package which I am interested in.
 
-**See**
+**See:**
 + They see the offers which the travel company is offering.
 + They notice that their family and friends are moving away from this travel company because of customer service.
 + They see reviews of the company online and see the ratings it has.
 
-**Hear**
+**Hear:**
 + They hear that during busy times their call takes much longer to be answered.
 + They hear the comments of their family and friends about the poor customer service this travel company offers.
 
-**Pain**
+**Pain:**
 + Customers are linked to relationship managers who do not explain the different packages clearly.
 + When customers are linked to relationship managers who have no knowledge about certain packages which a customer is interested in.
 
-**Gain**
+**Gain:**
 + Customers are connected to a Relationship manager with a short waiting time.
 + Relationship managers have the knowledge about the package which a customer is inquiring for.
 + Customers are informed about all packages and promotions which the company is offering.
 
 ## Brainstorming of Solution
++ Match end-customers with well informed RMs with appropriate knowledge about the destination and its tradition.
++ Create a questionnaire for the initial phase of RM profiles, the questionnaire will assist and work in collaboration with the matcher tool, to effectively match the RM with the customer. This means that there must be a singular questionnaire to Build RM profile based on the criteria in the questions.
++ System adjusts RM profiles constantly based on RMs performance in selling. The system will adapt and change when the RM is upskilled and constantly reaching KPIs.
++ A database will store a target list for outbound calls, each customer is in the form of <potential customer, product proposed>.
++ The target list will use the skill matcher to match the appropriate RM. Potentially have a target list go into a ‘RMs target list’ file for each individual RM. This collated target list will be provided to the RM everyday with new a new list.
++ Create a preloaded criteria for inbound customers. There must be a certain number of questions or criteria that the system will present to the customer to answer using their keypad to assist in routing the call.
++ Calculate skill score based on RM’s previous call duration and profile.
++ Customers with high scores get more priority.
++ RMs can alternate between inbound and outbound calls by selecting whether they want to receive calls or make calls. The system will generate the target list automatically to make calls once outbound calls are selected.
++ RMs can put themselves on ‘NOT ready’ option to stop the inflow of calls if they need to follow up with their existing customers who they have dealt with before.
++ When customers are routed to an unsuitable RM they are able to transfer directly to the suitable RM so the customer doesn't have to wait in the queue again. RM will know they are unsuitable due to the customer profile.
++ RMs are able to put their customers on hold to investigate complex situations further, the system will play music when ‘hold status’ is active. RMs can also put themselves on MUTE if they need to do quick investigating.
++ Customers can choose their language before the call is routed to ensure optimum selectability and routing to RMS.
+
 ## Project Backlog
 ### User Stories
 ### Backlog
+
+
 ## Use Case Diagram
 ## Use Case Narratives
 ### Use Case Narrative 1
