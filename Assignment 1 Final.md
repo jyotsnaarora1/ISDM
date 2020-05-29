@@ -208,6 +208,7 @@ The stakeholders involved in this project are:
 ![Activity Diagram 4](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Sabrina%202.png "Activity Diagram 4")
 
 ## 11. Class Diagram
+![Class Diagram](https://github.com/jyotsnaarora1/ISDM/blob/master/Class%20diagram%20with%20UML%20notation.jpeg "Class Diagram")
 
 ## 12. Collaborative Diagram
 ![Collaborative Diagram](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/collaborative%20diagram.png "Collaborative Diagram")
