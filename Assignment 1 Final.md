@@ -131,9 +131,69 @@ The stakeholders involved in this project are:
 
 ## 9. Use Case Narratives
 #### 9.1 Use Case Name: Connect Customers to RM in busy times
+|**Use Case ID**|UC102: Connect Customers to RM in busy times|
+|:---|:---|
+|**User Story**|US102: As a customer, I want to be able to speak with a relationship manager despite busy times.|
+|**Goal**|Reduce the wait times when custoer contacts the relationship manager.|
+|**Priority**|High|
+|**Actors**|Primary- Customers <br> Secondary- Relationship Managers|
+|**Pre-Conditions**|Customers would have had to wait until the next relationship manager is available. Even the customers who have purchased a product and are calling for an enquiry are placed in line with customers who are learning about different packages.|
+|**Post-Conditions**|Customers are assignment to relationship managers according to a priority list. This speeds up the wait time and hence improving customer service.|
+|**Trigger**|The travel company launches this automatic branch exchange system. A skill score is introduced to measure the likelihood of purchase by a given customer.|
+|**Main Flow**|1.	The customer calls the travel company for the first time. <br><br> 2.	There is a wait time before being connected to the RM <br><br> 3.	After the call, the automatic system calculated a skill score based on the RM’s previous call duration and profile. <br><br> 4.	A score from 1-10 is calculated determining the likelihood to purchase a product is given to a customer according to a preloaded criterion. <br><br> 5.	Customers who repeat calls are given a high score. <br><br> 6.	Customers with higher score are marked as higher priority and served first.|
+|**Exceptions**|1.	If the customer who had a higher score fails to make a purchase or is taking significantly longer in the call, their score will be deducted. <br><br> 2.	If a RM is receiving only customers with a much lower score it indicates that RM’s skills are below expectations. <br><br> 3.	There might be a delay during the times when some RM’s are only going to focus on outbound call list.|
+|**Includes/Extends/Inherits**|**Includes:** <br> - The customers answer a preloaded questionnaire. <br> - Enter Registeration Details includes Entering Payment Details <br> - Review Security Check includes Send Verification Documents <br> <br> **Extends:** <br> - Perform Security Check extends to Review Security Check <br> - Upload Identification Documents extends to Send Verification Documents <br> <br> **Inherits:** <br>- Enter Payment Details inherits Enter Credit Card|
+|**Supporting Information**|Customer service management centre has its own private automatic branch exchange to route the calls.|
+|**Non-functional Requirements**|Call routing should not take more than 1 minute to connect.|
+
 #### 9.2 Use Case Name: Access to Customer Files to RM
+|**Use Case ID**|UC104: Access to Customer Files to RM|
+|:---|:---|
+|**User Story**|US104: As a customer, I want the relationship manager to have a record of my previous conversation with the company, so I do not have to repeat my needs or concerns.|
+|**Goal**|To increase quality of customer service and make efficient calls.|
+|**Priority**|High|
+|**Actors**|Primary- Customers <br> Secondary- Relationship managers|
+|**Pre-Conditions**|Customers are called by the relationship managers and are asked repetitive question. They are unaware that another RM has already contacted this customer and have asked the few standard questions.|
+|**Post-Conditions**|Customers are called by the relationship manager who continues the call from what has happened previously.|
+|**Trigger**|The company’s outbound calls develop a target list system that retrieves customer details from a database.|
+|**Main Flow**|1.	The customer calls the company <br><br> 2. Customers are assigned to a relationship manager. <br><br> 3. The customer is put on hold while the connected RM reviews the script of their previous conversation. <br><br> 4. Relationship Manager enquires about issue discussed previously. <br><br> 5. Customer discusses their issues and concerns. <br><br> 6. This conversation is also recorded for future use.|
+|**Exceptions**|1. If the customer calls for the first time, then the standard questions will be asked but that conversation will be recorded. <br><br> 2. If the customer wants to enquire about another package, then the conversation will start from the beginning.|
+|**Includes/Extends/Inherits**|**Includes:** <br> - Enter Registration Details includes Entering Payment Details <br> - Review Security Check includes Send Verification Documents <br><br> **Extends:** <br> - Perform Security Check extends to Review Security Check <br> - Upload Identification Documents extends to Send Verification Documents <br><br> **Inherits:** <br> - Enter Payment Details inherits Enter Credit Card|
+|**Supporting Information**|The Relationship managers will have a list such as “potential customer, product proposed etc”.|
+|**Non-functional Requirements**|The outbound call should no longer be than 5 minutes.|
+
 #### 9.3 Use Case Name: Match Customers to RMs
-#### 9.4 Use Case Name: Capture RM Skills
+|**Use Case ID**|UC201: Match Customers to RMs|
+|:---|:---|
+|**User Story**|US201: As an RM, I want to be connected to customers who require my skills so I can help them to the best of ability.|
+|**Goal**|To connect customers with the right RMs.|
+|**Priority**|High|
+|**Actors**|Primary- Customers <br> Secondary- Relationship Managers|
+|**Pre-Conditions**|Relationship Managers have filled out the questionnaire during the hiring process.|
+|**Post-Conditions**|None|
+|**Trigger**|Customers express interest during their pre-recorded questions which directs them to an RM.|
+|**Main Flow**|1. The customer calls the call management centre and answers the pre-recorded questions which are used to give them a score. <br><br> 2. This score is then used to connect them with an RM.|
+|**Exceptions**|1. The call is outbound.|
+|**Includes/Extends/Inherits**|N/A|
+|**Supporting Information**|N/A|
+|**Non-functional Requirements**|N/A|
+
+#### 9.4 Use Case Name: Capture RM Skills via Questionnaire
+|**Use Case ID**|UC203: Capture RM Skills via Questionnaire|
+|:---|:---|
+|**User Story**|US203: As an RM, I want to be asked questions during my questionnaire, so I am not matched a customer who I am not able to help.|
+|**Goal**|To accurately assess the RM's skills|
+|**Priority**|High|
+|**Actors**|Primary- Relationship Managers <br> Secondary- Travel Company|
+|**Pre-Conditions**|Relationship Managers have been hired by the company.|
+|**Post-Conditions**|None|
+|**Trigger**|RMs have been hired by the travel company and have been given the questionnaire.|
+|**Main Flow**|1. The RMs go through the hiring process. <br><br> The RMs are successful in filling the role. <br><br> 3. The RMs have been given the questionnaire to be completed. <br><br> 4. The RMs complete the questionnaire honestly and do not embellish on their skills or interests.|
+|**Exceptions**|1. The new RM is not successful in landing the role.|
+|**Includes/Extends/Inherits**|N/A|
+|**Supporting Information**|N/A|
+|**Non-functional Requirements**|N/A| 
+
 ## 10. Activity Diagrams
 #### 10.1 UC: Connect Customers to RM in busy times
 ![Activity Diagram 1](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20Diagram%20Shreya%201.png "Activity Diagram 1")
@@ -144,7 +204,7 @@ The stakeholders involved in this project are:
 #### 10.3 UC: Match Customers to RM
 ![Activity Diagram 3](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Sabrina%201.png "Activity Diagram 3")
 
-#### 10.4 UC: Capture RM Skills
+#### 10.4 UC: Capture RM Skills via Questionnaire
 ![Activity Diagram 4](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Sabrina%202.png "Activity Diagram 4")
 
 ## 11. Class Diagram
