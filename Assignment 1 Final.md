@@ -158,7 +158,7 @@ The stakeholders involved in this project are:
 |**Trigger**|The company’s outbound calls develop a target list system that retrieves customer details from a database.|
 |**Main Flow**|1.	The customer calls the company <br><br> 2. Customers are assigned to a relationship manager. <br><br> 3. The customer is put on hold while the connected RM reviews the script of their previous conversation. <br><br> 4. Relationship Manager enquires about issue discussed previously. <br><br> 5. Customer discusses their issues and concerns. <br><br> 6. This conversation is also recorded for future use.|
 |**Exceptions**|1. If the customer calls for the first time, then the standard questions will be asked but that conversation will be recorded. <br><br> 2. If the customer wants to enquire about another package, then the conversation will start from the beginning.|
-|**Includes/Extends/Inherits**|**Includes:** <br> - Enter Registration Details includes Entering Payment Details <br> - Review Security Check includes Send Verification Documents <br><br> **Extends:** <br> - Perform Security Check extends to Review Security Check <br> - Upload Identification Documents extends to Send Verification Documents <br><br> **Inherits:** <br> - Enter Payment Details inherits Enter Credit Card|
+|**Includes/Extends/Inherits**|**Includes:** <br> - Select Language <br> - Profiler Tool matches customer to RM <br><br> **Extends:** <br> - Wait time music is played <br><br> **Inherits:** <br> - N/A|
 |**Supporting Information**|The Relationship managers will have a list such as “potential customer, product proposed etc”.|
 |**Non-functional Requirements**|The outbound call should no longer be than 5 minutes.|
 
