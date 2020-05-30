@@ -188,7 +188,7 @@ The stakeholders involved in this project are:
 |**Pre-Conditions**|Relationship Managers have been hired by the company.|
 |**Post-Conditions**|None|
 |**Trigger**|RMs have been hired by the travel company and have been given the questionnaire.|
-|**Main Flow**|1. The RMs go through the hiring process. <br><br> The RMs are successful in filling the role. <br><br> 3. The RMs have been given the questionnaire to be completed. <br><br> 4. The RMs complete the questionnaire honestly and do not embellish on their skills or interests.|
+|**Main Flow**|1. The RMs go through the hiring process. <br><br> 2. The RMs are successful in filling the role. <br><br> 3. The RMs have been given the questionnaire to be completed. <br><br> 4. The RMs complete the questionnaire honestly and do not embellish on their skills or interests.|
 |**Exceptions**|1. The new RM is not successful in landing the role.|
 |**Includes/Extends/Inherits**|N/A|
 |**Supporting Information**|N/A|
