@@ -36,7 +36,6 @@ The stakeholders involved in this project are:
 ## 5. Empathy Maps
 #### 5.1 Company Empathy Map
 **Think & Feel:**
-+ They know about a travel company who has several holiday packages that suit each person’s needs and budgets.
 + Travel Company is struggling to provide the level of customer service which would attract and maintain a customer base.
 + They are unable to serve all the customers in the busy times.
 + Relationship Manager does not have enough knowledge about specific packages to help customers.
