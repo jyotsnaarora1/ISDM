@@ -26,7 +26,7 @@ The stakeholders involved in this project are:
 ## 4. Project Assumptions
 1. The target list for RMs is updated regularly to maintain a certain amount of calls being made.
 2. There is ‘hold’ music in place for customers in the queue.
-3. RM must answer privacy questions before beginning the conversation based off their profiles specific criteria; such as DOB, Full Name and Address. 
+3. Customers must answer privacy questions before beginning the conversation based off their profiles specific criteria; such as DOB, Full Name and Address. 
 4. Assuming that all the customers who call the company are willing to share information for the customer profile when they initially call.
 5. The pre-loaded criteria is an automated pre-recorded questionnaire which greets the customer.
 6. The system will make outbound calls using the target list to customers if the RM is in an idle state (not receiving incoming calls).
