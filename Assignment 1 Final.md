@@ -51,6 +51,12 @@ The stakeholders involved in this project are:
 + They hear complaints of customers that suggest that relationship managers are unable to answer customer’s questions.
 + They hear competitors gaining more customer base and market share than them.
 
+**Say & Do:**
++ The company will attempt to develop a much more efficient system to combat the issues.
++ They will let the customers know that they are in the process of improving.
++ They will hire better relationship managers.
++ They will train their relationship managers so they can assist the customers better.
+
 **Pain:**
 + The company is losing customers due to the poor customer services provided by the relationship managers.
 + They are unable to increase the sales of the packages because some relationship managers do not have enough knowledge about every package.
@@ -76,6 +82,11 @@ The stakeholders involved in this project are:
 **Hear:**
 + They hear that during busy times their call takes much longer to be answered.
 + They hear the comments of their family and friends about the poor customer service this travel company offers.
+
+**Say & Do:**
++ The customers will talk about their experience with the company to their family and friends.
++ They will write reviews of their experience online.
++ They might opt out of the company after facing unsatisfactory customers service. 
 
 **Pain:**
 + Customers are linked to relationship managers who do not explain the different packages clearly.
