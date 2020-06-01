@@ -143,7 +143,7 @@ The stakeholders involved in this project are:
 |**Use Case ID**|UC102: Connect Customers to RM in busy times|
 |:---|:---|
 |**User Story**|US102: As a customer, I want to be able to speak with a relationship manager despite busy times.|
-|**Goal**|Reduce the wait times when custoer contacts the relationship manager.|
+|**Goal**|Reduce the wait times when customer contacts the relationship manager.|
 |**Priority**|High|
 |**Actors**|Primary- Customers <br> Secondary- Relationship Managers|
 |**Pre-Conditions**|Customers would have had to wait until the next relationship manager is available. Even the customers who have purchased a product and are calling for an enquiry are placed in line with customers who are learning about different packages.|
@@ -204,16 +204,16 @@ The stakeholders involved in this project are:
 |**Non-functional Requirements**|N/A| 
 
 ## 10. Activity Diagrams
-#### 10.1 UC: Connect Customers to RM in busy times
+#### 10.1 UC102: Connect Customers to RM in busy times
 ![Activity Diagram 1](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20Diagram%20Shreya%201.png "Activity Diagram 1")
 
-#### 10.2 UC: Access to Customer Files to RM
+#### 10.2 UC104: Access to Customer Files to RM
 ![Activity Diagram 2](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Shreya%202.png "Activity Diagram 2")
 
-#### 10.3 UC: Match Customers to RM
+#### 10.3 UC201: Match Customers to RM
 ![Activity Diagram 3](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Sabrina%201.png "Activity Diagram 3")
 
-#### 10.4 UC: Capture RM Skills via Questionnaire
+#### 10.4 UC203: Capture RM Skills via Questionnaire
 ![Activity Diagram 4](https://github.com/jyotsnaarora1/ISDM/blob/master/Diagrams/Activity%20diagram%20Sabrina%202.png "Activity Diagram 4")
 
 ## 11. Class Diagram
@@ -250,6 +250,6 @@ The scrum methodology is the most suitable and appropriate methodology to be uti
 
 The team will use GitHub to submit work in iterations based on the backlog which includes the necessary deliverables to be submitted into the final report. Github allows the team to have version control and records all changes made that we can revert back to, compare changes over and see who has modified the files. Through collaborating on GitHub, we were able to edit each others work and create more backlog deliverables for the next sprint.
 
-### Presentation
+## 15. Presentation
 [ISDM Project Presentation](https://youtu.be/RKXeLwIGRWM)
 
